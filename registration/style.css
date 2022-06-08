@@ -1,0 +1,14 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+body {
+    background-color: aquamarine;
+}
+
+body .regi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

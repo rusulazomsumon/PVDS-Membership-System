@@ -1,0 +1,17 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body .sumon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    border: 2px dotted black;
+}
+.box1 {
+    background-color: aqua;
+    length: 30%;
+    
+}

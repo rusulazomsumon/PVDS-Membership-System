@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+#topHeader {
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#topHeader #rightTop{
+    border: 3px solid red;
+    
+}
+
+#topHeader p{
+    padding: 1px;
+}
+#topHeader #rightTop :hover{
+    color: aliceblue;
+    background-color: brown;
+}
+#topHeader #leftTop{
+    display: flex;
+}
+
+
+header img{
+    width: fit-content;
+    height: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    header img{
+        width: fit-content;
+        height: 100px;
+    }
+  }
+
+nav {
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(86, 39, 11);
+}
+.slider {
+    background-color: rgb(59, 27, 110);
+    background-image: url("../pvdsNew/media/linkedin\ banner\ Rusul\ Azom\ Sumon.jpg");
+}
+.content {
+    background-color: rgb(52, 110, 27);
+    width: 70%;
+   
+}
+aside {
+    background-color: rgb(201, 5, 41);
+    width: 30%;
+    float: right;
+    background-color: lightgray;
+}
+footer {
+    background-color: rgb(171, 158, 192);
+}
+.copy {
+    text-align: center;
+    color: aliceblue;
+}
+
+.copy p{
+    background-color: rgb(2, 1, 0);
+    font-family: 'Lato';
+    font-size: small;
+    padding: 10px 0px 10px 0px;
+}
+.copy a:link{
+    text-decoration: none;
+    background-color: black;
+    font-family: monospace;
+}
