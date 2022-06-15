@@ -33,7 +33,10 @@ img {
   opacity: 0.5;
 }
 
-</style>
+</style>        
+
+<!--Main Body-->
+
 
 <div class="container">
   <div class="row">
